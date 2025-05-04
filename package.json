@@ -14,7 +14,7 @@
     }
   },
   "dependencies": {
-    "@vklive/sdk": "^1.0.0"
+    "@vklive/sdk": "^1.0.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.11.0",
