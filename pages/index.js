@@ -45,8 +45,8 @@ SdkEventEmitter.addListener(ESdkControlsEvents.CHANNEL_URL_UPDATE, (data) => {
 console.log('====', getConfig());
 updateConfig({
 	hosts: {
-		api: 'https://apisdk.founder-tv-alpha.my.cloud.devmail.ru/',
-		sdk: 'https://apisdk.founder-tv-alpha.my.cloud.devmail.ru/',
+		// api: 'https://apisdk.founder-tv-alpha.my.cloud.devmail.ru/',
+		// sdk: 'https://apisdk.founder-tv-alpha.my.cloud.devmail.ru/',
 	},
 });
 
