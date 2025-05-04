@@ -1,0 +1,31 @@
+{
+  "name": "vkplaylive-sdk-sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox for test VK Live SDK package",
+  "scripts": {
+    "start": "parcel --port 7028 pages/index.html",
+    "build": "parcel build pages/index.html"
+  },
+  "author": "r.bauer@vk.team",
+  "license": "ISC",
+  "targets": {
+    "default": {
+      "distDir": "./dist/static"
+    }
+  },
+  "dependencies": {
+    "@vklive/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "buffer": "^6.0.3",
+    "http-proxy-middleware": "^3.0.0",
+    "parcel": "^2.10.3",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.4.35",
+    "postcss-assets": "^6.0.0",
+    "postcss-modules": "^6.0.0",
+    "sass": "^1.70.0",
+    "typescript": "^5.3.3"
+  }
+}
