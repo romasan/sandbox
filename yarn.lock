@@ -1692,7 +1692,7 @@
   dependencies:
     csstype "^3.0.2"
 
-"@vklive/sdk@^1.0.8":
+"@vklive/sdk@^1.0.2":
   version "1.0.8"
   resolved "https://artifactory.mvk.com/api/npm/npm-vklive-remote/vklive-sdk-1.0.8.tgz"
   integrity sha1-NiW2K5Pr80j2fr6KJ5KLHjFQ3i0=
